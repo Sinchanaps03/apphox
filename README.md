@@ -1,4 +1,4 @@
-The successfully hosted a web application in aws by launching an ec2 instance and connecting it to ubuntu terminal.
+I successfully hosted a web application in aws by launching an ec2 instance and connecting it to ubuntu terminal.
 I wrote a bash script for the packages to be installed and to extract the zip file.
 #! /bin/bash
 
