@@ -14,6 +14,14 @@ Inside the terminal, I ran bash script.sh and sudo cp -r filename/* /var/www/htm
 This is my public IP 3.106.209.194
 I completed my static web hosting in AWS using EC2 instance
 
+{Create a Dockerfile for the application.
+Build the Docker image successfully.
+Run the application inside a Docker container.
+Expose the required application port.
+Verify that the containerized application is accessible.
+Push the application source code to a GitHub repository.
+Provide basic deployment documentation (README).}
+
 In my vscode, i craeted a Dockerfile as
 FROM nginx
 COPY . /usr/share/nginx/html
@@ -30,3 +38,13 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Sinchanaps03/apphox.git
 git push -u origin main
+
+{Deploy the provided application on an AWS EC2 instance.
+Configure the server with all required dependencies.
+Configure application environment variables.
+Run the application as a service.
+Ensure the application is accessible via the EC2 Public IP.}
+
+I also faced some consequences which were later solved succesfully
+It was hosting the web application in the Docker file, I also rechecked it again and again by chnaging my host port and container port to 178:80, 188:80 and 199:80. Well, it worked!
+
